@@ -155,6 +155,7 @@
 .p1
 {
     padding-top: 10rem;
+    margin-bottom: 23rem;
 }
 
 .p1>h2  {
@@ -604,6 +605,10 @@ div .no_border
     }
     .main {
         margin-left: 240px;
+        display: flex;
+        flex-direction: column;
+       
+       
     }
     .profile-picture {
         display: block;
@@ -652,17 +657,20 @@ div .no_border
     display: block;
     width: 100%;
     height: 100vh;
+    
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/987/871/original/abstract-black-stripes-diagonal-background-free-vector.jpg);
     background-color: #111418;
-    background-size: cover;
+  
     color: #fff;
     text-align: center;
     font-size: 25px;
+   
 
 }
 .p1
 {
     margin-top: 10%;
+    margin-bottom: 23rem;
 }
 .p1>h3{
     font-size: 25px;
