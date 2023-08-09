@@ -278,11 +278,8 @@
 /* desige chung cho headerpage */
 .headerpage
 {
-    
     margin: 0;
     padding: 0;
-    
-    
 }
 
 .headerpage>h2
@@ -293,7 +290,6 @@
     text-align: center;
     color:#98949421;
     font-size: 4rem;
- 
 }
 .headerpage>p
 {
@@ -435,6 +431,79 @@ div .no_border
 {
     border-right: none;
 }
+/* hết phần page2 mobile */ 
+
+/* /page3 mobile */ 
+.page3
+{
+  
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodypage3
+{
+    margin: 0;
+    margin-top: 50px;
+    padding: 0.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+    
+}
+.bodypage3 > div
+{
+    margin: 0;
+    padding: 0 20px ;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+.left_bodypage3
+{
+  box-sizing: border-box;
+  background-color: #1b1f1f;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.left_bodypage3>i
+{   
+    font-size: 30px;
+    color: rgb(32, 201, 151);
+}
+
+.bodypage3 p
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #A6A6A6;
+    padding-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    
+}
+.right-bodypage3
+{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
 
 /* dành cho màn hình 1024px */
 @media (min-width:1024px)
@@ -522,6 +591,7 @@ div .no_border
  /* page2 */
  .page2
 {
+    
     box-sizing: border-box;
     padding: 48px;
     width: 100%;
@@ -696,4 +766,59 @@ div.no_border
     border-right: none;
 }
 /* xong page2  */
+.page3
+{
+    padding: 48px;
+    height: 870px;
+    background-color: #343a40;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodypage3
+{
+    
+    margin: 0;
+    padding: 30px 80px 30px;
+    display: grid;
+    grid-template-columns: 70px auto 70px auto;
+    flex: 1;
+    
+}
+.bodypage3 > div
+{
+    margin: 0;
+    padding: 0 20px ;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+
+}
+.left_bodypage3
+{
+  background-color: #1b1f1f;
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.left_bodypage3>i
+{   
+    font-size: 30px;
+    color: rgb(32, 201, 151);
+}
+
+.bodypage3 p
+{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #A6A6A6;
+    line-height: 1.5;
+}
 }
