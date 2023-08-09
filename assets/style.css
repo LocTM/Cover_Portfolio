@@ -187,6 +187,7 @@
     display: inline-block;
     transition: 2s ease-in-out;
     color: #ffffff;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px #fff, 0 0 4px rgb(32, 201, 151), 0 0 5px rgb(32, 201, 151), 0 0 6px rgb(32, 201, 151), 0 0 7px rgb(32, 201, 151), 0 0 8px rgb(32, 201, 151), 0 0 9px rgb(32, 201, 151), 0 0 10px rgb(32, 201, 151), 0 0 11px rgb(32, 201, 151), 0 0 12px rgb(32, 201, 151), 0 0 13px rgb(32, 201, 151), 0 0 14px rgb(32, 201, 151), 0 0 15px rgb(32, 201, 151);
     font-weight: bold;
 }
   .s1 {
