@@ -1332,36 +1332,73 @@ div.no_border
     background-color: #343a40;
     display: flex;
     flex-direction: column;
-    
 }
 .body-page7
-{   
+{
     margin: 0;
-    margin-top: 50px;
     padding: 0;
     display: flex;
     flex-direction: row;
-    
-}
-.body-page7-left
-{
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    width: 30%;
-    color: #ffffff;
-    font-size: 1rem;
-   
-   
 }
 .body-page7-right
 {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    width: 40%;
+    color: #ffffff;
+    font-size: 20px;
+    order: 1;
+    text-align: left;
+    align-items: baseline;
+
+}
+.body-page7-right > p
+{
+    margin : 1rem 2rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1rem; 
+}
+.addresspage7
+{
+    line-height: 2.5rem;
+}
+{
+    color: rgb(32, 201, 151);
+    margin: 10px 0 10px 0;
+
+}
+.body-page7-left
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
     flex: 1;
     color: #ffffff;
     font-size: 20px;
+    order: 2;
 }
-
+.body-page7-left > h3
+{
+    margin : 1rem 0rem;
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    text-align: left;
+}
+.inputpage7
+{
+    display: flex;
+    flex-direction: row;
+}
+.inputpage7-left
+{
+    width: 40%;
+    padding-right: 1rem;
+}
+.inputpage7-right
+{
+    flex: 1;
+    padding-left: 1rem;
 }
