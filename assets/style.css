@@ -712,22 +712,22 @@ div .no_border
 }
 
     /* bắt đầu page7 */
-    .page7
+.page7
     {
         background-color: #343a40;
         display: flex;
         flex-direction: column;
         padding: 0.5rem;
     }
-    .body-page7
+.body-page7
     {
         margin: 0;
         padding: 0.5rem;
-        padding-top: 3rem;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
     }
-    .body-page7-left
+.body-page7-left
     {
         display: flex;
         flex-direction: column;
@@ -737,8 +737,108 @@ div .no_border
         font-size: 20px;
         text-align: center;
     }
-    
+.input
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    background-color: #1b1f1f;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: top;
+   
+}
+.form-control
+{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    background-color: #1b1f1f;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: top;
+}
 
+.SendMessage
+{
+    width: 150px;
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background-color: rgb(32, 201, 151);
+    border: 2px solid rgb(32, 201, 151);
+    box-sizing: content-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.body-page7-right
+{
+    text-align: center;
+    align-items: center;
+    color: #ffffff;
+  
+}
+.body-page7-right > h3
+{
+    margin : 1rem 2rem;
+   
+}
+.body-page7-right > p
+{
+    margin : 1rem 2rem;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.2rem; 
+}
+.body-page7-right > p > i
+{
+    color: rgb(32, 201, 151);
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+}
+.footer-body-page7-right > a
+{
+    color: #ffffff;
+    border-bottom: none;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+/* xong page7 */ 
+/* bắt đầu page8 */
+.page8
+{
+    margin: 0;
+    padding: 2rem;
+    background-color: #1b1f1f;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #ffffff;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.footerpage8
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footerpage8-left
+{
+    border-right: 1px solid #5e5e5e;
+    padding-right: 1rem;
+}
+.footerpage8-right
+{
+    padding-left: 1rem;
+}
 /* dành cho màn hình 1024px */
 @media (min-width:1024px)
 {
