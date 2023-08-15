@@ -699,21 +699,100 @@ div .no_border
     }
     /* xong phần page5 mobile */
     /* bắt đầu page6 */
-    .page6
+.page6
 {
     background-color: #1b1f1f;
     display: flex;
     flex-direction: column;
     padding-bottom: 3rem;
 }
-.page6>.headerpage>h2
+.page6 > .headerpage > h2
 {
-    font-size: 3.5rem;
+    font-size: 3.3rem
 }
+
+.bodypage6
+{
+    margin: 0.6rem;
+    border-radius: 10px;
+
+    margin-top: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #030303;
+    color: #ffffff;    
+}
+.page6bg-cl
+{
+    padding: 4rem;
+}
+.AVT-Name
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.avtpage6
+{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.namepage6
+{
+    margin: 0;
+    padding: 0; 
+    padding-left: 1rem;
+    flex: 1;
+    color: #ffffff;
+    align-items: center;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+.namepage6 > p
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    font-size: 1rem;
+}
+.commentuser
+{
+   margin-top: 1rem;;
+   line-height: 1.5rem;
+}
+.box-staryellow
+{
+    margin-top: 1rem;
+}
+.staryellow
+{
+    color: #FFD700;
+}
+.user2
+{
+    display: none;
+}
+.user3
+{
+    display: none;
+}
+.user4
+{
+    display: none;
+}
+
+
+
+
 
     /* bắt đầu page7 */
 .page7
     {
+        
         background-color: #343a40;
         display: flex;
         flex-direction: column;
@@ -741,7 +820,7 @@ div .no_border
 {
     width: 100%;
     padding: 10px;
-    border-radius: 4px;
+    border-radius: 0.3rem;
     box-sizing: border-box;
     margin-top: 2rem;
     background-color: #1b1f1f;
@@ -1364,11 +1443,6 @@ div.no_border
 {
     line-height: 2.5rem;
 }
-{
-    color: rgb(32, 201, 151);
-    margin: 10px 0 10px 0;
-
-}
 .body-page7-left
 {
     box-sizing: border-box;
@@ -1401,4 +1475,5 @@ div.no_border
 {
     flex: 1;
     padding-left: 1rem;
+}
 }
