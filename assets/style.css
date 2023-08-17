@@ -896,6 +896,9 @@ div .no_border {
   .psmoke {
     font-size: 6rem;
   }
+  .hide_me{
+    cursor: pointer;
+  }
   /* xong page1 */
 
   /* page2 */
@@ -1214,6 +1217,10 @@ div .no_border {
   .nav-page5 > ul > li:hover {
     color: rgb(32, 201, 151);
   }
+  .ProjectTitle_1
+  {
+
+  }
   /* xong page 5 */
   .page6 {
     padding: 48px;
@@ -1221,6 +1228,10 @@ div .no_border {
     display: flex;
     flex-direction: column;
   }
+  .page6 > .headerpage > h2 {
+    font-size: 8rem;
+  }
+ 
 
   /* xong page 6 */
   .page7 {
@@ -1282,5 +1293,9 @@ div .no_border {
   .inputpage7-right {
     flex: 1;
     padding-left: 1rem;
+  }
+  .SendMessage
+  {
+   cursor: pointer;
   }
 }
